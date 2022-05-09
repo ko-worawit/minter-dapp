@@ -2999,8 +2999,6 @@ p {
     left: 0;
     width: 100%;
     background-color: #fff;
-    padding-top: 25px;
-    padding-bottom: 25px;
     z-index: 5;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -3009,7 +3007,6 @@ p {
     transition: all 0.3s ease-out 0s; }
     @media (max-width: 767px) {
       .team-style-eleven .team-content {
-        padding-top: 15px;
         padding-bottom: 15px; } }
     .team-style-eleven .team-content::before {
       position: absolute;
@@ -3257,7 +3254,7 @@ video {
   width:50%;
 }
 .playpause {
-  background-image:url(../images/playicon.png);
+  background-image:url(../images/play.png);
   background-repeat:no-repeat;
   width:50%;
   height:50%;

@@ -31,6 +31,7 @@
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
     
+    <link rel="stylesheet" href="assets/css/slide.css">
 
     <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
 
@@ -92,7 +93,7 @@
                         
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
-                                <li><a class="solid" href="#">Download</a></li>
+                                <li><a class="solid" href="#">Connect Wallet</a></li>
                             </ul>
                         </div>
                     </nav> <!-- navbar -->
@@ -109,7 +110,7 @@
     <section id="team" class="team-area">
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-md-12">
-                        <video class="video" autoplay>
+                        <video class="video" autoplay poster="assets/images/video_poster.png">
                             <source src="assets/images/daonoi.mp4" type="video/mp4" />
                         </video>
                         <div class="playpause"></div>
@@ -154,165 +155,97 @@
 
     <!--====== SLIDER PART START ======-->
 
-    <section id="home" class="slider_area">
-        <div id="carouselThree" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselThree" data-slide-to="1"></li>
-                <li data-target="#carouselThree" data-slide-to="2"></li>
-            </ol>
+    <section class="slideshow">
+       <!-- Container for the image gallery -->
+        <div class="container">
 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Business is Now Digital</h1>
-                                    <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
-                                    <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">DOWNLOAD</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- container -->
-                    <div class="slider-image-box d-none d-lg-flex align-items-end">
-                        <div class="slider-image">
-                            <img src="assets/images/slider/1.png" alt="Hero">
-                        </div> <!-- slider-imgae -->
-                    </div> <!-- slider-imgae box -->
-                </div> <!-- carousel-item -->
-
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Crafted for Business</h1>
-                                    <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
-                                    <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">DOWNLOAD</a></li>
-                                    </ul>
-                                </div> <!-- slider-content -->
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- container -->
-                    <div class="slider-image-box d-none d-lg-flex align-items-end">
-                        <div class="slider-image">
-                            <img src="assets/images/slider/2.png" alt="Hero">
-                        </div> <!-- slider-imgae -->
-                    </div> <!-- slider-imgae box -->
-                </div> <!-- carousel-item -->
-
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Based on Bootstrap 4</h1>
-                                    <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
-                                    <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
-                                        <li><a class="main-btn rounded-two" href="#">DOWNLOAD</a></li>
-                                    </ul>
-                                </div> <!-- slider-content -->
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- container -->
-                    <div class="slider-image-box d-none d-lg-flex align-items-end">
-                        <div class="slider-image">
-                            <img src="assets/images/slider/3.png" alt="Hero">
-                        </div> <!-- slider-imgae -->
-                    </div> <!-- slider-imgae box -->
-                </div> <!-- carousel-item -->
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/slider/anti-bot.jpg" style="width:100%">
             </div>
-
-            <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
-                <i class="lni lni-arrow-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
-                <i class="lni lni-arrow-right"></i>
-            </a>
+        
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/slider/anti-human.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/slider/mafia.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/slider/red-light.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/slider/the-concil.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext"></div>
+                <img src="assets/images/slider/underground.jpg" style="width:100%">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Image text -->
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
+        
+            <!-- Thumbnail images -->
+            <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="assets/images/slider/AntiBot_thumb.png" style="width:100%" onclick="currentSlide(1)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/slider/antiHuman_thumb.png" style="width:100%" onclick="currentSlide(2)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/slider/AntiBot_thumb.png" style="width:100%" onclick="currentSlide(3)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/slider/AntiBot_thumb.png" style="width:100%" onclick="currentSlide(4)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/slider/theConcil_thumb.png" style="width:100%" onclick="currentSlide(5)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/images/slider/UnderGround_thumb.png" style="width:100%" onclick="currentSlide(6)">
+            </div>
+            </div>
         </div>
-    </section>
+      </section>
 
     <!--====== SLIDER PART ENDS ======-->
     
     <!--====== ABOUT PART START ======-->
 
-    <section id="about" class="about-area">
+    <section id="purchase" class="purchase-area">
         <div class="container">
             <div class="row">
+                <div class="col-lg-7">
+                    <div class="about-image mt-50">
+                        <img src="assets/images/about_pic.png" alt="about">
+                    </div> <!-- faq image -->
+                </div>
                 <div class="col-lg-5">
                     <div class="faq-content mt-45">
                         <div class="about-title">
-                            <h6 class="sub-title">A Little More About Us</h6>
-                            <h4 class="title">Frequently Asked Questions <br> About Our Site</h4>
+                            <h4 class="title">ABOUT</h4>
+                                <p>“The Dying Earth”</p>
+                                <p>Leaving humanity only a last faint breath of their long-lasting civilization. of them all, humankind had just little hope of survival. Humans reached further to create the digital transcendence, the miracle emergence to overcome the state of physical dependence by deciphering every single human’s mind into a very complex “CODE” and uploading it into a huge digital archive.
+                            </p>
+                            <br>
+                            <p id="demo" class="timer"></p>
                         </div> <!-- faq title -->
-                        <div class="about-accordion">
-                            <div class="accordion" id="accordionExample">
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Frequently Asked Question One</a>
-                                    </div>
-
-                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
-                                        </div>
-                                    </div> 
-                                </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Frequently Asked Question Two</a>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingThree">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Frequently Asked Question Three</a>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingFore">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFore" aria-expanded="false" aria-controls="collapseFore">Frequently Asked Question Four</a>
-                                    </div>
-                                    <div id="collapseFore" class="collapse" aria-labelledby="headingFore" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                                <div class="card">
-                                    <div class="card-header" id="headingFive">
-                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Frequently Asked Question Five</a>
-                                    </div>
-                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p class="text">Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- card -->
-                            </div>
-                        </div> <!-- faq accordion -->
                     </div> <!-- faq content -->
-                </div>
-                <div class="col-lg-7">
-                    <div class="about-image mt-50">
-                        <img src="assets/images/about.jpg" alt="about">
-                    </div> <!-- faq image -->
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
@@ -328,66 +261,118 @@
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-30">
                         <h3 class="title">Meet The Team</h3>
-                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-2 col-sm-4">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
-                            <img src="assets/images/team-1.jpg" alt="Team">
+                            <img src="assets/images/team/animalparade.png" alt="Team">
                         </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name"><a href="#">Jeffery Riley</a></h4>
-                            <span class="sub-title">Art Director</span>
+                        <div>
+                            <h4 class="team-name"><a href="#">Animalparade</a></h4>
+                            <span class="sub-title">Artist</span>
                         </div>
                     </div> <!-- single team -->
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-2 col-sm-4">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
-                            <img src="assets/images/team-2.jpg" alt="Team">
+                            <img src="assets/images/team/thanwa.png" alt="Team">
                         </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name"><a href="#">Riley Beata</a></h4>
-                            <span class="sub-title">Web Developer</span>
+                        <div>
+                            <h4 class="team-name"><a href="#">Thanwa</a></h4>
+                            <span class="sub-title">Artist</span>
                         </div>
                     </div> <!-- single team -->
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-2 col-sm-4">
                     <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="team-image">
-                            <img src="assets/images/team-3.jpg" alt="Team">
+                            <img src="assets/images/team/pleum.png" alt="Team">
                         </div>
-                        <div class="team-content">
-                            <div class="team-social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                                    <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <h4 class="team-name"><a href="#">Mark A. Parker</a></h4>
-                            <span class="sub-title">UX Designer</span>
+                        <div>
+                            <h4 class="team-name"><a href="#">PLEUM</a></h4>
+                            <span class="sub-title">Artist</span>
                         </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/team/koz.png" alt="Team">
+                        </div>
+                        <div>
+                            <h4 class="team-name"><a href="#">KOZ</a></h4>
+                            <span class="sub-title">Developer</span>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        
+                    </div> <!-- single team -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/team/god.png" alt="Team">
+                        </div>
+                        <div>
+                            <h4 class="team-name"><a href="#">GOD</a></h4>
+                            <span class="sub-title">Project Manager</span>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/team/ploy.png" alt="Team">
+                        </div>
+                        <div>
+                            <h4 class="team-name"><a href="#">Ploy</a></h4>
+                            <span class="sub-title">Marketing</span>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/team/sia.png" alt="Team">
+                        </div>
+                        <div>
+                            <h4 class="team-name"><a href="#">SIA</a></h4>
+                            <span class="sub-title">Marketing</span>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="team-image">
+                            <img src="assets/images/team/keyz.png" alt="Team">
+                        </div>
+                        <div>
+                            <h4 class="team-name"><a href="#">KEYZ</a></h4>
+                            <span class="sub-title">Marketing</span>
+                        </div>
+                    </div> <!-- single team -->
+                </div>
+                <div class="col-lg-2 col-sm-4">
+                    <div class="team-style-eleven text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                        
                     </div> <!-- single team -->
                 </div>
             </div> <!-- row -->
@@ -402,21 +387,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="assets/images/logo.svg" alt="Logo"></a>
-                    </div> <!-- footer logo -->
-                    <ul class="social text-center mt-60">
-                        <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
-                        <li><a href="https://twitter.com/uideckHQ"><i class="lni lni-twitter-original"></i></a></li>
-                        <li><a href="https://instagram.com/uideckHQ"><i class="lni lni-instagram-original"></i></a></li>
-                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-                    </ul> <!-- social -->
-                    <div class="footer-support text-center">
-                        <span class="number">+8801234567890</span>
-                        <span class="mail">support@uideck.com</span>
-                    </div>
                     <div class="copyright text-center mt-35">
-                        <p class="text">Designed by <a href="https://uideck.com" rel="nofollow">UIdeck</a> and Built-with <a rel="nofollow" href="https://ayroui.com">Ayro UI</a> </p>
+                        <p class="text">C.O.D.E Project, All rights reserved</p>
                     </div> <!--  copyright -->
                 </div>
             </div> <!-- row -->
@@ -477,6 +449,8 @@
     
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+
+    <script src="assets/js/splide.min.js"></script>
    
 </body>
 
