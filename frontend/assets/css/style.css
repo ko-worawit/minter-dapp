@@ -2360,7 +2360,6 @@ p {
 ===========================*/
 .purchase-area {
   padding-top: 10px;
-  padding-bottom: 130px;
   position: relative; }
   .purchase-area .purchase-title .sub-title {
     font-size: 18px;
@@ -2379,8 +2378,8 @@ p {
       .purchase-area .abpurchaseout-title .title {
         font-size: 22px; } }
   .purchase-content{
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-top: 40%;
+    margin-bottom: 40%;
   }
 
 
