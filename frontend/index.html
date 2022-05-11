@@ -33,6 +33,8 @@
     
     <link rel="stylesheet" href="assets/css/slide.css">
 
+    <link rel="stylesheet" href="assets/css/parallax.css">  
+
     <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
 
 </head>
@@ -226,16 +228,19 @@
     
     <!--====== ABOUT PART START ======-->
 
-    <section id="purchase" class="purchase-area">
+    <section id="about" class="about-area" style="background-image: url(assets/images/about_bg.jpg);background-size: cover;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-5">
                     <div class="about-image mt-50">
-                        <img src="assets/images/about_pic.png" alt="about">
+                        <img src="assets/images/about_char.png" alt="about" data-speed="1" class="img-parallax">
                     </div> <!-- faq image -->
                 </div>
+                <div class="col-lg-2">
+                    &nbsp;
+                </div>
                 <div class="col-lg-5">
-                    <div class="faq-content mt-45">
+                    <div class="about-content mt-45">
                         <div class="about-title">
                             <h4 class="title">ABOUT</h4>
                                 <p>“The Dying Earth”</p>
@@ -450,6 +455,12 @@
     <script src="assets/js/main.js"></script>
 
     <script src="assets/js/splide.min.js"></script>
+
+    <script src="assets/js/parallax.js"></script>
+
+    <script>
+        carousel();
+    </script>
    
 </body>
 
