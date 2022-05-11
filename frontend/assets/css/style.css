@@ -2416,6 +2416,9 @@ p {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+.team-card{
+  margin-bottom: 15px;
+}
 .team-image{
   margin-bottom: 15px;
 }
