@@ -6,6 +6,14 @@
   font-size: 16px;
 }
 
+.purchase-area{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+}
+
 .block h2{
   position: relative;
   display: block;
@@ -24,5 +32,15 @@
   top: 0;
   left: 50%;
   transform: translate(-50%,0);
+  pointer-events: none
+}
+
+.img-parallax-purchase {
+  width: 100vmax;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-20%,0);
   pointer-events: none
 }
