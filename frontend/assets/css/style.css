@@ -2502,8 +2502,8 @@ video {
 .playpause {
   background-image:url(../images/play.png);
   background-repeat:no-repeat;
-  width:50%;
-  height:50%;
+  width:25%;
+  height:25%;
   position:absolute;
   left:0%;
   right:0%;
