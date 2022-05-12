@@ -20,8 +20,16 @@
       01.COMMON css 
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+
+@font-face {
+  font-family: 'MontserratAlternates';
+  src: url('../fonts/MontserratAlternates-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "MontserratAlternates","Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #121212; }
@@ -58,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "MontserratAlternates","Poppins", sans-serif;
   font-weight: 600;
   color: #121212;
   margin: 0px; }
@@ -2177,12 +2185,10 @@ p {
     .navbar-area.sticky .navbar .navbar-nav .nav-item.active, .navbar-area.sticky .navbar .navbar-nav .nav-item:hover {
       color: #121212;
       opacity: 1; }
-    .navbar-area.sticky .navbar .navbar-btn li a.light {
-      border-color: #0067f4;
-      color: #0067f4; }
     .navbar-area.sticky .navbar .navbar-btn li a.solid {
       background-color: black;
-      color: #fff; }
+      color: #fff; 
+      white-space: nowrap;}
 
 
 
