@@ -50,14 +50,6 @@
     top: 0;
   }
   
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
   .row:after {
     content: "";
     display: table;
@@ -78,4 +70,9 @@
   .active,
   .demo:hover {
     opacity: 1;
+  }
+
+  .gallery-thumb{
+    padding-left: 10%;
+    padding-right: 10%;
   }
