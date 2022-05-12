@@ -2154,9 +2154,7 @@ p {
           .navbar-area .navbar .navbar-btn li a.light:hover {
             background-color: rgba(255, 255, 255, 0.4); }
         .navbar-area .navbar .navbar-btn li a.solid {
-          background-color: #fff;
-          border-color: #fff;
-          color: #0067f4; }
+          background-color: black; }
           .navbar-area .navbar .navbar-btn li a.solid:hover {
             background-color: transparent;
             color: #fff; }
@@ -2183,8 +2181,7 @@ p {
       border-color: #0067f4;
       color: #0067f4; }
     .navbar-area.sticky .navbar .navbar-btn li a.solid {
-      border-color: #0067f4;
-      background-color: #0067f4;
+      background-color: black;
       color: #fff; }
 
 
@@ -2196,8 +2193,6 @@ HOME Aread
   background-color: #131313;
   padding-top: 97px;
 }
-
-
 
 
 /*===========================
@@ -2473,7 +2468,7 @@ HOME Aread
   height: 45px;
   line-height: 45px;
   border-radius: 5px;
-  background-color: #0067f4;
+  background-color: black;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
