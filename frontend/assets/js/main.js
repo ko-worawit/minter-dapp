@@ -147,20 +147,6 @@ $(function() {
     });
     
     
-    //===== slick Testimonial Four
-    
-    $('.testimonial-active').slick({
-        dots: false,
-        arrows: true,
-        prevArrow: '<span class="prev"><i class="lni lni-arrow-left"></i></span>',
-        nextArrow: '<span class="next"><i class="lni lni-arrow-right"></i></span>',
-        infinite: true,
-       autoplay: true,
-        autoplaySpeed: 5000,
-        speed: 800,
-        slidesToShow: 1,
-    });
-    
     
     //====== Magnific Popup
     
@@ -234,14 +220,6 @@ var x = setInterval(function() {
   }, 1000);
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
 });
