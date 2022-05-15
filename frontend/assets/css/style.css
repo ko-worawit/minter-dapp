@@ -993,564 +993,6 @@ p {
       -o-animation: iconTranslateY 0.5s forwards;
       animation: iconTranslateY 0.5s forwards; }
 
-/*===== Success Buttons =====*/
-.success-buttons ul li {
-  display: inline-block;
-  margin-left: 18px;
-  margin-top: 20px; }
-  @media (max-width: 767px) {
-    .success-buttons ul li {
-      margin-left: 0; } }
-  .success-buttons ul li:first-child {
-    margin-left: 0; }
-.success-buttons .success-one {
-  border-color: #4da422;
-  color: #4da422; }
-  .success-buttons .success-one:hover {
-    color: #4da422;
-    background-color: rgba(77, 164, 34, 0.4); }
-.success-buttons .success-two {
-  color: #fff;
-  background-color: #4da422;
-  border-color: #4da422; }
-  .success-buttons .success-two:hover {
-    color: #4da422;
-    background-color: transparent; }
-.success-buttons .success-three {
-  overflow: hidden;
-  line-height: 52px;
-  color: #fff;
-  border: 0;
-  background: -webkit-linear-gradient(left, #4da422 0%, #69e02e 50%, #4da422 100%);
-  background: -o-linear-gradient(left, #4da422 0%, #69e02e 50%, #4da422 100%);
-  background: linear-gradient(to right, #4da422 0%, #69e02e 50%, #4da422 100%);
-  background-size: 200% auto; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .success-buttons .success-three {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .success-buttons .success-three {
-      line-height: 44px; } }
-  .success-buttons .success-three:hover {
-    background-position: right center; }
-.success-buttons .success-four {
-  padding-left: 60px;
-  border-color: #4da422;
-  color: #4da422; }
-  @media (max-width: 767px) {
-    .success-buttons .success-four {
-      padding-left: 40px; } }
-  .success-buttons .success-four span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    left: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .success-buttons .success-four span {
-        left: 15px; } }
-  .success-buttons .success-four:hover {
-    color: #4da422;
-    background-color: rgba(77, 164, 34, 0.4); }
-    .success-buttons .success-four:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-.success-buttons .success-five {
-  padding-left: 60px;
-  color: #fff;
-  background-color: #4da422;
-  border-color: #4da422; }
-  @media (max-width: 767px) {
-    .success-buttons .success-five {
-      padding-left: 40px; } }
-  .success-buttons .success-five span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    left: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .success-buttons .success-five span {
-        left: 15px; } }
-  .success-buttons .success-five:hover {
-    color: #4da422;
-    background-color: transparent; }
-    .success-buttons .success-five:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-.success-buttons .success-six {
-  padding-right: 60px;
-  overflow: hidden;
-  line-height: 52px;
-  color: #fff;
-  border: 0;
-  background: -webkit-linear-gradient(left, #4da422 0%, #69e02e 50%, #4da422 100%);
-  background: -o-linear-gradient(left, #4da422 0%, #69e02e 50%, #4da422 100%);
-  background: linear-gradient(to right, #4da422 0%, #69e02e 50%, #4da422 100%);
-  background-size: 200% auto; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .success-buttons .success-six {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .success-buttons .success-six {
-      padding-right: 40px;
-      line-height: 44px; } }
-  .success-buttons .success-six span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    right: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .success-buttons .success-six span {
-        right: 15px; } }
-  .success-buttons .success-six:hover {
-    background-position: right center; }
-    .success-buttons .success-six:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-
-/*===== Warning Buttons =====*/
-.warning-buttons ul li {
-  display: inline-block;
-  margin-left: 18px;
-  margin-top: 20px; }
-  @media (max-width: 767px) {
-    .warning-buttons ul li {
-      margin-left: 0; } }
-  .warning-buttons ul li:first-child {
-    margin-left: 0; }
-.warning-buttons .warning-one {
-  border-color: #ffb400;
-  color: #ffb400; }
-  .warning-buttons .warning-one:hover {
-    color: #ffb400;
-    background-color: rgba(255, 180, 0, 0.4); }
-.warning-buttons .warning-two {
-  color: #fff;
-  background-color: #ffb400;
-  border-color: #ffb400; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .warning-buttons .warning-two {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .warning-buttons .warning-two {
-      padding-right: 40px;
-      line-height: 44px; } }
-  .warning-buttons .warning-two:hover {
-    color: #ffb400;
-    background-color: transparent; }
-.warning-buttons .warning-three {
-  overflow: hidden;
-  line-height: 52px;
-  color: #fff;
-  border: 0;
-  background: -webkit-linear-gradient(left, #ffb400 0%, #f7e500 50%, #ffb400 100%);
-  background: -o-linear-gradient(left, #ffb400 0%, #f7e500 50%, #ffb400 100%);
-  background: linear-gradient(to right, #ffb400 0%, #f7e500 50%, #ffb400 100%);
-  background-size: 200% auto; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .warning-buttons .warning-three {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .warning-buttons .warning-three {
-      line-height: 44px; } }
-  .warning-buttons .warning-three:hover {
-    background-position: right center; }
-.warning-buttons .warning-four {
-  padding-left: 60px;
-  border-color: #ffb400;
-  color: #ffb400; }
-  @media (max-width: 767px) {
-    .warning-buttons .warning-four {
-      padding-left: 40px; } }
-  .warning-buttons .warning-four span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    left: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .warning-buttons .warning-four span {
-        left: 15px; } }
-  .warning-buttons .warning-four:hover {
-    color: #ffb400;
-    background-color: rgba(255, 180, 0, 0.4); }
-    .warning-buttons .warning-four:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-.warning-buttons .warning-five {
-  padding-left: 60px;
-  color: #fff;
-  background-color: #ffb400;
-  border-color: #ffb400; }
-  @media (max-width: 767px) {
-    .warning-buttons .warning-five {
-      padding-left: 40px; } }
-  .warning-buttons .warning-five span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    left: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .warning-buttons .warning-five span {
-        left: 15px; } }
-  .warning-buttons .warning-five:hover {
-    color: #ffb400;
-    background-color: transparent; }
-    .warning-buttons .warning-five:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-.warning-buttons .warning-six {
-  padding-right: 60px;
-  overflow: hidden;
-  line-height: 52px;
-  color: #fff;
-  border: 0;
-  background: -webkit-linear-gradient(left, #ffb400 0%, #f7e500 50%, #ffb400 100%);
-  background: -o-linear-gradient(left, #ffb400 0%, #f7e500 50%, #ffb400 100%);
-  background: linear-gradient(to right, #ffb400 0%, #f7e500 50%, #ffb400 100%);
-  background-size: 200% auto; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .warning-buttons .warning-six {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .warning-buttons .warning-six {
-      padding-right: 40px;
-      line-height: 44px; } }
-  .warning-buttons .warning-six span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    right: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .warning-buttons .warning-six span {
-        right: 15px; } }
-  .warning-buttons .warning-six:hover {
-    background-position: right center; }
-    .warning-buttons .warning-six:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-
-/*===== Info Buttons =====*/
-.info-buttons ul li {
-  display: inline-block;
-  margin-left: 18px;
-  margin-top: 20px; }
-  @media (max-width: 767px) {
-    .info-buttons ul li {
-      margin-left: 0; } }
-  .info-buttons ul li:first-child {
-    margin-left: 0; }
-.info-buttons .info-one {
-  border-color: #00b8d8;
-  color: #00b8d8; }
-  .info-buttons .info-one:hover {
-    color: #00b8d8;
-    background-color: rgba(0, 184, 216, 0.4); }
-.info-buttons .info-two {
-  color: #fff;
-  background-color: #00b8d8;
-  border-color: #00b8d8; }
-  .info-buttons .info-two:hover {
-    color: #00b8d8;
-    background-color: transparent; }
-.info-buttons .info-three {
-  overflow: hidden;
-  line-height: 52px;
-  color: #fff;
-  border: 0;
-  background: -webkit-linear-gradient(left, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
-  background: -o-linear-gradient(left, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
-  background: linear-gradient(to right, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
-  background-size: 200% auto; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .info-buttons .info-three {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .info-buttons .info-three {
-      line-height: 44px; } }
-  .info-buttons .info-three:hover {
-    background-position: right center; }
-.info-buttons .info-four {
-  padding-left: 60px;
-  border-color: #00b8d8;
-  color: #00b8d8; }
-  @media (max-width: 767px) {
-    .info-buttons .info-four {
-      padding-left: 40px; } }
-  .info-buttons .info-four span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    left: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .info-buttons .info-four span {
-        left: 15px; } }
-  .info-buttons .info-four:hover {
-    color: #00b8d8;
-    background-color: rgba(0, 184, 216, 0.4); }
-    .info-buttons .info-four:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-.info-buttons .info-five {
-  padding-left: 60px;
-  color: #fff;
-  background-color: #00b8d8;
-  border-color: #00b8d8; }
-  @media (max-width: 767px) {
-    .info-buttons .info-five {
-      padding-left: 40px; } }
-  .info-buttons .info-five span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    left: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .info-buttons .info-five span {
-        left: 15px; } }
-  .info-buttons .info-five:hover {
-    color: #00b8d8;
-    background-color: transparent; }
-    .info-buttons .info-five:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-.info-buttons .info-six {
-  padding-right: 60px;
-  overflow: hidden;
-  line-height: 52px;
-  color: #fff;
-  border: 0;
-  background: -webkit-linear-gradient(left, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
-  background: -o-linear-gradient(left, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
-  background: linear-gradient(to right, #00b8d8 0%, #32fbfc 50%, #00b8d8 100%);
-  background-size: 200% auto; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .info-buttons .info-six {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .info-buttons .info-six {
-      padding-right: 40px;
-      line-height: 44px; } }
-  .info-buttons .info-six span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    right: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .info-buttons .info-six span {
-        right: 15px; } }
-  .info-buttons .info-six:hover {
-    background-position: right center; }
-    .info-buttons .info-six:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-
-/*===== Danger Buttons =====*/
-.danger-buttons ul li {
-  display: inline-block;
-  margin-left: 18px;
-  margin-top: 20px; }
-  @media (max-width: 767px) {
-    .danger-buttons ul li {
-      margin-left: 0; } }
-  .danger-buttons ul li:first-child {
-    margin-left: 0; }
-.danger-buttons .danger-one {
-  border-color: #fc3832;
-  color: #fc3832; }
-  .danger-buttons .danger-one:hover {
-    color: #fc3832;
-    background-color: rgba(252, 56, 50, 0.4); }
-.danger-buttons .danger-two {
-  color: #fff;
-  background-color: #fc3832;
-  border-color: #fc3832; }
-  .danger-buttons .danger-two:hover {
-    color: #fc3832;
-    background-color: transparent; }
-.danger-buttons .danger-three {
-  overflow: hidden;
-  line-height: 52px;
-  color: #fff;
-  border: 0;
-  background: -webkit-linear-gradient(left, #fc3832 0%, #dc312b 50%, #fc3832 100%);
-  background: -o-linear-gradient(left, #fc3832 0%, #dc312b 50%, #fc3832 100%);
-  background: linear-gradient(to right, #fc3832 0%, #dc312b 50%, #fc3832 100%);
-  background-size: 200% auto; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .danger-buttons .danger-three {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .danger-buttons .danger-three {
-      line-height: 44px; } }
-  .danger-buttons .danger-three:hover {
-    background-position: right center; }
-.danger-buttons .danger-four {
-  padding-left: 60px;
-  border-color: #fc3832;
-  color: #fc3832; }
-  @media (max-width: 767px) {
-    .danger-buttons .danger-four {
-      padding-left: 40px; } }
-  .danger-buttons .danger-four span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    left: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .danger-buttons .danger-four span {
-        left: 15px; } }
-  .danger-buttons .danger-four:hover {
-    color: #fc3832;
-    background-color: rgba(252, 56, 50, 0.4); }
-    .danger-buttons .danger-four:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-.danger-buttons .danger-five {
-  padding-left: 60px;
-  color: #fff;
-  background-color: #fc3832;
-  border-color: #fc3832; }
-  @media (max-width: 767px) {
-    .danger-buttons .danger-five {
-      padding-left: 40px; } }
-  .danger-buttons .danger-five span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    left: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .danger-buttons .danger-five span {
-        left: 15px; } }
-  .danger-buttons .danger-five:hover {
-    color: #fc3832;
-    background-color: transparent; }
-    .danger-buttons .danger-five:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
-.danger-buttons .danger-six {
-  padding-right: 60px;
-  overflow: hidden;
-  line-height: 52px;
-  color: #fff;
-  border: 0;
-  background: -webkit-linear-gradient(left, #fc3832 0%, #dc312b 50%, #fc3832 100%);
-  background: -o-linear-gradient(left, #fc3832 0%, #dc312b 50%, #fc3832 100%);
-  background: linear-gradient(to right, #fc3832 0%, #dc312b 50%, #fc3832 100%);
-  background-size: 200% auto; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .danger-buttons .danger-six {
-      line-height: 44px; } }
-  @media (max-width: 767px) {
-    .danger-buttons .danger-six {
-      padding-right: 40px;
-      line-height: 44px; } }
-  .danger-buttons .danger-six span {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow: hidden;
-    right: 30px;
-    line-height: normal; }
-    @media (max-width: 767px) {
-      .danger-buttons .danger-six span {
-        right: 15px; } }
-  .danger-buttons .danger-six:hover {
-    background-position: right center; }
-    .danger-buttons .danger-six:hover i {
-      -webkit-animation: iconTranslateY 0.5s forwards;
-      -moz-animation: iconTranslateY 0.5s forwards;
-      -o-animation: iconTranslateY 0.5s forwards;
-      animation: iconTranslateY 0.5s forwards; }
 
 @-webkit-keyframes iconTranslateY {
   49% {
@@ -2190,7 +1632,33 @@ p {
       color: #fff; 
       white-space: nowrap;}
 
+/* Show in Large desktops and laptops */
+@media (min-width: 992px) {
+    .logo-mobile{
+      display: none;
+    }
+  }
 
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+    .logo{
+      display: none;
+    }
+  }
+
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px) {
+      .logo{
+        display: none;
+      }
+  }
+
+    /* Portrait phones and smaller */
+    @media (max-width: 480px) {
+      .logo{
+        display: none;
+      }
+  }
 
 /*=============/
 HOME Aread
@@ -2308,7 +1776,7 @@ HOME Aread
 
 
 /*===========================
-       15.ABOUT css 
+       15.ABOUT css
 ===========================*/
   .about-area .about-title .sub-title {
     font-size: 18px;
@@ -2334,6 +1802,7 @@ HOME Aread
       background-image: url(../images/about_bg.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      margin-bottom: 0px;
       }
       .about-content{
         margin-top: 25%;
@@ -2350,6 +1819,7 @@ HOME Aread
   
       .about-area {
           background-image: none;
+          margin-bottom: 5%;
       }
       .purchase-content{
         margin-top: 5%;
@@ -2366,6 +1836,7 @@ HOME Aread
   
       .about-area {
           background-image: none;
+          margin-bottom: 5%;
       }
       .purchase-content{
         margin-top: 5%;
@@ -2382,6 +1853,7 @@ HOME Aread
   
       .about-area {
           background-image: none;
+          margin-bottom: 5%;
       }
       .purchase-content{
         margin-top: 5%;
