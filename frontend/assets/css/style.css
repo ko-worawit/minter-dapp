@@ -41,6 +41,12 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+@media (max-width: 800px) {
+  html, body {
+  overflow-x: hidden;
+  }
+}
+
 img {
   max-width: 100%; }
 
@@ -1630,7 +1636,8 @@ p {
     .navbar-area.sticky .navbar .navbar-btn li a.solid {
       background-color: black;
       color: #fff; 
-      white-space: nowrap;}
+      white-space: nowrap;
+    font-size: 0.8em;}
 
 /* Show in Large desktops and laptops */
 @media (min-width: 992px) {
@@ -1821,6 +1828,10 @@ HOME Aread
           background-image: none;
           margin-bottom: 5%;
       }
+      .about-area .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
       .purchase-content{
         margin-top: 5%;
         margin-bottom: 5%;
@@ -1838,6 +1849,10 @@ HOME Aread
           background-image: none;
           margin-bottom: 5%;
       }
+      .about-area .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
       .purchase-content{
         margin-top: 5%;
         margin-bottom: 5%;
@@ -1855,6 +1870,10 @@ HOME Aread
           background-image: none;
           margin-bottom: 5%;
       }
+      .about-area .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
       .purchase-content{
         margin-top: 5%;
         margin-bottom: 5%;
