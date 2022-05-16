@@ -1,0 +1,434 @@
+
+.round-white{
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+.round-grey{
+  border-radius: 25px;
+  border: 2px solid grey;
+  padding: 20px;
+}
+
+.round-black{
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+p {
+  text-indent: 40px;
+}
+/*===========================
+       1. Dying earth css
+===========================*/
+.dying-area .dying-title .sub-title {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase; }
+.dying-title {
+  color: white !important;
+}
+.dying-title p{
+  color: white !important;
+}
+
+  @media (max-width: 767px) {
+    .dying-area .dying-title .sub-title {
+      font-size: 16px; } }
+.dying-area .dying-title .title {
+  font-size: 30px;
+  padding-top: 10px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .dying-area .dying-title .title {
+      font-size: 26px; } }
+  @media (max-width: 767px) {
+    .dying-area .dying-title .title {
+      font-size: 22px; } }
+
+      .dying-area {
+        background-image: url(../images/story/dying-earth.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 0px;
+        padding-top: 97px;
+        }
+        .dying-content{
+          margin-top: 15%;
+          margin-bottom: 10%;
+        }
+    
+
+/*===========================
+ 2. 
+===========================*/
+.inhope-area {
+  padding-top: 10px;
+  position: relative; }
+  .inhope-area .inhope-title .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    @media (max-width: 767px) {
+      .inhope-area .inhope-title .sub-title {
+        font-size: 16px; } }
+  .inhope-area .inhope-title .title {
+    font-size: 30px;
+    padding-top: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .inhope-area .inhope-title .title {
+        font-size: 26px; } }
+    @media (max-width: 767px) {
+      .inhope-area .inhope-title .title {
+        font-size: 22px; } }
+  
+        .thickline{
+          border-width: thick;
+          border-color: black;
+        }
+    .inhope-area {
+      background-image: url(../images/story/inhope.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+      .inhope-content{
+        margin-top: 25%;
+          margin-bottom: 20%;
+      }
+
+ /*===========================
+       3. da CODE css
+===========================*/
+.dacode-area .dacode-title .sub-title {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase; }
+.dacode-title {
+  color: white !important;
+}
+.dacode-title p{
+  color: white !important;
+}
+
+  @media (max-width: 767px) {
+    .dacode-area .dacode-title .sub-title {
+      font-size: 16px; } }
+.dacode-area .dacode-title .title {
+  font-size: 30px;
+  padding-top: 10px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .dacode-area .dacode-title .title {
+      font-size: 26px; } }
+  @media (max-width: 767px) {
+    .dacode-area .dacode-title .title {
+      font-size: 22px; } }
+
+      .dacode-area {
+        background-image: url(../images/story/daCODE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 0px;
+        padding-top: 97px;
+        }
+        .dacode-content{
+          margin-top: 15%;
+          margin-bottom: 10%;
+        }
+   
+/*===========================
+ 4.First Phase 
+===========================*/
+.firstphase-area {
+  padding-top: 10px;
+  position: relative; }
+  .firstphase-title {
+    color: white !important;
+  }
+  .firstphase-title p{
+    color: white !important;
+  }
+  .firstphase-area .firstphase-title .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    @media (max-width: 767px) {
+      .firstphase-area .firstphase-title .sub-title {
+        font-size: 16px; } }
+  .firstphase-area .firstphase-title .title {
+    font-size: 30px;
+    padding-top: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .firstphase-area .firstphase-title .title {
+        font-size: 26px; } }
+    @media (max-width: 767px) {
+      .firstphase-area .firstphase-title .title {
+        font-size: 22px; } }
+  
+    .firstphase-area {
+      background-image: url(../images/story/firstPhase.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+      .firstphase-content{
+        margin-top: 20%;
+          margin-bottom: 20%;
+      }
+
+/*===========================
+ 5. corrupted hope 
+===========================*/
+.corruptedhope-area {
+  padding-top: 10px;
+  position: relative; }
+  .corruptedhope-area .corruptedhope-title .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    @media (max-width: 767px) {
+      .corruptedhope-area .corruptedhope-title .sub-title {
+        font-size: 16px; } }
+  .corruptedhope-area .corruptedhope-title .title {
+    font-size: 30px;
+    padding-top: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .corruptedhope-area .corruptedhope-title .title {
+        font-size: 26px; } }
+    @media (max-width: 767px) {
+      .corruptedhope-area .corruptedhope-title .title {
+        font-size: 22px; } }
+    .corruptedhope-area {
+      background-image: url(../images/story/corruptedHope.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+      .corruptedhope-content{
+        margin-top: 20%;
+          margin-bottom: 20%;
+      }
+/*===========================
+       15.PURCHASE css 
+===========================*/
+.purchase-area {
+  padding-top: 10px;
+  position: relative; }
+  .purchase-area .purchase-title .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    @media (max-width: 767px) {
+      .purchase-area .purchase-title .sub-title {
+        font-size: 16px; } }
+  .purchase-area .purchase-title .title {
+    font-size: 30px;
+    padding-top: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .purchase-area .purchase-title .title {
+        font-size: 26px; } }
+    @media (max-width: 767px) {
+      .purchase-area .abpurchaseout-title .title {
+        font-size: 22px; } }
+  
+      .purchase-btn {
+        padding: 10px 16px;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+        background-color: #a8a8a8;
+        border: 2px solid;
+        border-radius: 10px;
+        -webkit-transition: all 0.3s ease-out 0s;
+        -moz-transition: all 0.3s ease-out 0s;
+        -ms-transition: all 0.3s ease-out 0s;
+        -o-transition: all 0.3s ease-out 0s;
+        transition: all 0.3s ease-out 0s; }
+
+
+  /* Show in Large desktops and laptops */
+  @media (min-width: 992px) {
+
+  .purchase-area {
+    background-image: url(../images/purchase_bg.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+    .purchase-content{
+      margin-top: 40%;
+      margin-bottom: 40%;
+    }
+    .img-purchase{
+      display: none;
+    }
+
+  }
+
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+
+    .purchase-area {
+        background-image: none;
+    }
+    .purchase-content{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .img-parallax{
+      display: none;
+    }
+
+  }
+
+    /* Landscape phones and portrait tablets */
+    @media (max-width: 767px) {
+
+    .purchase-area {
+        background-image: none;
+    }
+    .purchase-content{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .img-parallax{
+      display: none;
+    }
+
+  }
+
+    /* Portrait phones and smaller */
+    @media (max-width: 480px) {
+
+    .purchase-area {
+        background-image: none;
+    }
+    .purchase-content{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .img-parallax{
+      display: none;
+    }
+
+  }
+
+
+/*===========================
+       15.ABOUT css
+===========================*/
+  .about-area .about-title .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    @media (max-width: 767px) {
+      .about-area .about-title .sub-title {
+        font-size: 16px; } }
+  .about-area .about-title .title {
+    font-size: 30px;
+    padding-top: 10px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .about-area .about-title .title {
+        font-size: 26px; } }
+    @media (max-width: 767px) {
+      .about-area .about-title .title {
+        font-size: 22px; } }
+
+  /* Show in Large desktops and laptops */
+  @media (min-width: 992px) {
+
+    .about-area {
+      background-image: url(../images/about_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 0px;
+      }
+      .about-content{
+        margin-top: 25%;
+        margin-bottom: 20%;
+      }
+      .img-about{
+        display: none;
+      }
+  
+    }
+  
+      /* Portrait tablets and small desktops */
+      @media (min-width: 768px) and (max-width: 991px) {
+  
+      .about-area {
+          background-image: none;
+          margin-bottom: 5%;
+      }
+      .about-area .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+      .purchase-content{
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .img-parallax{
+        display: none;
+      }
+  
+    }
+  
+      /* Landscape phones and portrait tablets */
+      @media (max-width: 767px) {
+  
+      .about-area {
+          background-image: none;
+          margin-bottom: 5%;
+      }
+      .about-area .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+      .purchase-content{
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .img-parallax{
+        display: none;
+      }
+  
+    }
+  
+      /* Portrait phones and smaller */
+      @media (max-width: 480px) {
+  
+      .about-area {
+          background-image: none;
+          margin-bottom: 5%;
+      }
+      .about-area .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+      .purchase-content{
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .img-parallax{
+        display: none;
+      }
+  
+    }
+
+    .about-btn {
+      padding: 10px 16px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #fff;
+      background-color: black;
+      border-radius: 10px;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
