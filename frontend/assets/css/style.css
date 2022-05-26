@@ -2463,8 +2463,8 @@ HOME Aread
         margin-bottom: 0px;
     }
     .about-content {
-        margin-top: 25%;
-        margin-bottom: 20%;
+        margin-top: 30%;
+        margin-bottom: 50%;
     }
     .img-about {
         display: none;
@@ -2579,6 +2579,10 @@ HOME Aread
 
 .team-name {
     color: white !important;
+}
+
+.team-sub-title{
+    font-size: small
 }
 
 

@@ -60,6 +60,8 @@
   .column {
     float: left;
     width: 16.66%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
   
   /* Add a transparency effect for thumnbail images */
@@ -73,9 +75,12 @@
   }
 
   .gallery-thumb{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
+  
   .slide-desktop{
     width:100%;
   }
