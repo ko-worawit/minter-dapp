@@ -2563,6 +2563,11 @@ HOME Aread
 
 /*===== TEAM STYLE ELEVEN =====*/
 
+.section-title{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
 .team-area {
     background-color: #131313;
     padding-top: 2em;
